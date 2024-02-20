@@ -1,7 +1,7 @@
 // db.js
 const mongoose = require('mongoose');
 
-const url = 'mongodb+srv://fullstack:lop260803@cluster0.aj6yvq4.mongodb.net/?retryWrites=true&w=majority';
+const url = 'mongodb+srv://fullstack${password}@cluster0.aj6yvq4.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose
   .connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
